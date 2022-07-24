@@ -1,16 +1,16 @@
 menuBtn = document.querySelector("#menu-btn");
 closeBtn = document.querySelector(".close-btn");
 menu = document.querySelector("#menu");
-container = document.querySelector(".container");
+overlay = document.querySelector("#overlay");
 
 // show Sidebar
 menuBtn.addEventListener("click", () => {
   menu.style.display = "block";
-  document.body.classList.add("overlay");
+  overlay.classList.add("overlay");
 });
 
 // Hide Sidebar
 closeBtn.addEventListener("click", () => {
   menu.style.display = "none";
-  document.body.classList.remove("overlay");
+  overlay.classList.remove("overlay");
 });
