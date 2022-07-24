@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Custom css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--  ========================= Start Header Area ========================= -->
+      <header>
+        <img class="logo" src="images/logo.svg" id="menu-btn" />
+        <nav id="menu">
+          <ul>
+            <img class="close-btn" src="images/icon-close-menu.svg" alt="" />
+            <li class="menu-item">
+              <a href="#"
+                >Features
+                <img class="down" src="images/icon-arrow-down.svg" />
+                <img class="up" src="images/icon-arrow-up.svg"
+              /></a>
+              <div class="dropdown">
+                <a href="#"><img src="images/icon-todo.svg" />Todo List</a>
+                <a href="#"><img src="images/icon-calendar.svg" /> Calendar</a>
+                <a href="#"><img src="images/icon-reminders.svg" />Reminders</a>
+                <a href="#"><img src="images/icon-planning.svg" />Planning</a>
+              </div>
+            </li>
+            <li class="menu-item">
+              <a href="#"
+                >Company
+                <img class="down" src="images/icon-arrow-down.svg" />
+                <img class="up" src="images/icon-arrow-up.svg"
+              /></a>
+              <div class="dropdown">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+              </div>
+            </li>
+            <li class="menu-item"><a href="#news">History</a></li>
+            <li class="menu-item"><a href="#news">About</a></li>
+
+            <div class="btn-area">
+              <li class="menu-item">
+                <a href="#" class="menu-btn">Login</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-btn outline">Register</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+      <!--  ========================= End Header Area ========================= -->
+
+      <!--  =============== Start main section ===============  -->
+      <section class="main">
+        <div class="main-content">
+          <h1>Make</h1>
+          <h1>remote work</h1>
+          <p>
+            Get your yeam in synch. no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a href="#" class="btn-black">Learn More</a>
+          <div class="client">
+            <img src="images/client-databiz.svg" alt="" />
+            <img src="images/client-audiophile.svg" alt="" />
+            <img src="images/client-meet.svg" alt="" />
+            <img src="images/client-maker.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--  =============== End main section ===============  -->
+
+      <!--  =============== Start hero section ===============  -->
+      <section class="hero">
+        <div class="hero-img">
+          <div class="desktop-img"></div>
+          <div class="mobile-img"></div>
+        </div>
+      </section>
+      <!--  =============== End hero section ===============  -->
+
+      <!--  ========================= Start Footer Area ========================= -->
+
+      <footer>
+        <div>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">hxncodes</a>.
+        </div>
+      </footer>
+
+      <!--  ========================= End Footer Area ========================= -->
+    </div>
+
+    <!--  Custom js file  -->
+    <script src="main.js"></script>
+  </body>
+</html>
